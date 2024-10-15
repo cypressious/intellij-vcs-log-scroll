@@ -3,6 +3,7 @@
     <id>de.rakhman.vcs.scroll</id>
     <name>VCS Log Scroll Button</name>
     <vendor>Kirill Rakhman</vendor>
+    <description>Adds a button to the VCS Log toolbar to scroll the log all the way up.</description>
 
     <depends>com.intellij.modules.platform</depends>
 
