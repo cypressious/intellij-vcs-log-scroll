@@ -1,18 +1,19 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.cypressious.intellijvcslogscroll</id>
-    <name>intellij-vcs-log-scroll</name>
-    <vendor>cypressious</vendor>
+    <id>de.rakhman.vcs.scroll</id>
+    <name>VCS Log Scroll Button</name>
+    <vendor>Kirill Rakhman</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
     <resource-bundle>messages.MyBundle</resource-bundle>
 
-    <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.cypressious.intellijvcslogscroll.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
-    </extensions>
-
-    <applicationListeners>
-        <listener class="com.github.cypressious.intellijvcslogscroll.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
-    </applicationListeners>
+    <actions>
+        <action id="org.jetbrains.plugins.template.ScrollUpAction"
+                class="org.jetbrains.plugins.template.ScrollUpAction" text="Scroll VCS Log Up"
+                description="Scrolls up the VCS Log."
+                icon="AllIcons.RunConfigurations.Scroll_up">
+            <add-to-group group-id="Vcs.Log.Toolbar" anchor="last"/>
+        </action>
+    </actions>
 </idea-plugin>
