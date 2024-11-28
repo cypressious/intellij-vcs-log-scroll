@@ -3,7 +3,7 @@
 
 # plugins
 intelliJPlatform = "2.1.0"
-kotlin = "2.0.21"
+kotlin = "2.1.0"
 
 [libraries]
 
