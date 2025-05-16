@@ -10,8 +10,8 @@
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <actions>
-        <action id="org.jetbrains.plugins.template.ScrollUpAction"
-                class="org.jetbrains.plugins.template.ScrollUpAction" text="Scroll VCS Log Up"
+        <action id="com.github.cypressious.intellijvcslogscroll.ScrollUpAction"
+                class="com.github.cypressious.intellijvcslogscroll.ScrollUpAction" text="Scroll VCS Log Up"
                 description="Scrolls up the VCS Log."
                 icon="AllIcons.RunConfigurations.Scroll_up">
             <add-to-group group-id="Vcs.Log.Toolbar" anchor="last"/>
