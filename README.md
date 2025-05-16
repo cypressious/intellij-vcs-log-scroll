@@ -2,7 +2,7 @@
 
 ![Build](https://github.com/cypressious/intellij-vcs-log-scroll/workflows/Build/badge.svg)
 [![Version](https://img.shields.io/jetbrains/plugin/v/25563.svg)](https://plugins.jetbrains.com/plugin/25563)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/25563.svg)](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/25563.svg)](https://plugins.jetbrains.com/plugin/25563)
 
 <!-- Plugin description -->
 Adds a button to the VCS Log toolbar to scroll the log all the way up.
